@@ -344,11 +344,14 @@ a { color: inherit; text-decoration: none; }
 .research-card-link:hover { color: var(--unsw-dark); }
 
 .research-card {
+  display: block;
   padding: 2rem;
   border: 1px solid var(--unsw-border);
   border-top: 3px solid var(--green);
   background: var(--white);
   transition: box-shadow 0.25s ease, transform 0.25s ease;
+  text-decoration: none;
+  color: inherit;
 }
 
 .research-card:hover {
@@ -928,6 +931,7 @@ a { color: inherit; text-decoration: none; }
   font-style: italic;
   margin-top: 0.4rem;
   line-height: 1.45;
+  text-align: center;
 }
 
 .research-list {
