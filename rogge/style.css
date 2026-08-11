@@ -768,6 +768,39 @@ a { color: inherit; text-decoration: none; }
   padding: 1.5rem 0;
 }
 
+/* ── Alumni Table ── */
+.alumni-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: var(--font-sans);
+  font-size: 0.9rem;
+  margin-top: 1rem;
+}
+.alumni-table th {
+  text-align: left;
+  padding: 0.6rem 1rem;
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--unsw-muted);
+  border-bottom: 2px solid var(--unsw-border);
+}
+.alumni-table td {
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid var(--unsw-border);
+  color: var(--unsw-dark);
+  vertical-align: top;
+}
+.alumni-table tbody tr:last-child td { border-bottom: none; }
+.alumni-table tbody tr:hover td { background: var(--unsw-light); }
+.alumni-prev {
+  display: block;
+  font-size: 0.78rem;
+  color: var(--unsw-muted);
+  margin-top: 0.15rem;
+}
+
 /* ── Publications ── */
 .pub-year-block {
   display: grid;
